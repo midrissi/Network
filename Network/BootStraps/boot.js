@@ -1,0 +1,1 @@
+﻿currentSession().promoteWith('Admin');directory.setLoginListener("loginHandler");require('nn/utils').syncDirectoryGroups();currentSession().unPromote();
