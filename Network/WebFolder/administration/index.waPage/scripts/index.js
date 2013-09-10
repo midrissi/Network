@@ -186,7 +186,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                		netID: entity.network.relKey
 		                	});
 		                	
-		                	addNode(element, entity);
+		                	addNode(element, e2.entity);
 						}
 					});
 				}

@@ -353,7 +353,7 @@ var _ns = _ns || {};
                 })
                 .bind({
                     click: function click() {
-                        model.select();
+                    	model.select();
                     }
                 });
 

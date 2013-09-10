@@ -7,9 +7,12 @@ module.exports = {
 	type: new Attribute("storage", "string"),
 	description: new Attribute("storage", "string"),
 	image: new Attribute("storage", "image"),
-	ip: new Attribute("storage", "string"),
-	port: new Attribute("storage", "number"),
-	hostname: new Attribute("calculated", "string"),
+	ip: new Attribute("storage", "string", {
+		"defaultValue": "localhost"
+	}),
+	port: new Attribute("storage", "number", {
+		"defaultValue": "80"
+	}),
 	hostname: new Attribute("calculated", "string"),
 	h_Ns: new Attribute("relatedEntities", "H_Ns", "host", {
 		"reversePath": true
