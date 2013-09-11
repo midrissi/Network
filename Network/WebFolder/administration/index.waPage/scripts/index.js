@@ -223,7 +223,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 					
 					network.model.get('segments').playAll();
 				},
-				orderBy: 'order'
+				orderby: 'order'
 			});
 		}
 	};// @lock
