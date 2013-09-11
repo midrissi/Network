@@ -1,1 +1,1 @@
-﻿currentSession().promoteWith('Admin');directory.setLoginListener("loginHandler");require('nn/utils').syncDirectoryGroups();currentSession().unPromote();
+﻿directory.setLoginListener("loginHandler", "Admin");var curSession = currentSession(),	token = curSession.promoteWith('Admin');require('nn/utils').syncDirectoryGroups();curSession.unPromote(token);

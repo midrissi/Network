@@ -10,5 +10,6 @@ module.exports = {
 	requests: new Attribute("relatedEntities", "Requests", "scenario", {
 		"reversePath": true
 	}),
-	network: new Attribute("relatedEntity", "Network", "Network")
+	network: new Attribute("relatedEntity", "Network", "Network"),
+	theme: new Attribute("relatedEntity", "Theme", "Theme")
 };

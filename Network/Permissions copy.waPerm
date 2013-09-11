@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="read" groupName="RO" groupID="9C73332CF1D347B49CD90C59556E498F" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="RO" groupID="9C73332CF1D347B49CD90C59556E498F" resource="Model.User_Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User_Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User_Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.User_Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="RO" groupID="9C73332CF1D347B49CD90C59556E498F" resource="Model.Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Group" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host_Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host_Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Host_Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Network" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Request" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Request" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Request" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Scenario" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Scenario" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Scenario" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Theme" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Theme" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Theme" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Category" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Category" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="RW" groupID="BACAA9E5EC184BD4AD2EC2305D521E8C" resource="Model.Category" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="describe" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Group" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

@@ -35,18 +35,18 @@ result.events = {};
 // Initialize the events object:
 result.events = {};
 
-/*result.events.onRestrictingQuery = function(){
+result.events.onRestrictingQuery = function(){
 	var curSession = currentSession();
 
-	if(curSession.belongsTo(config.ROLES.SELLER)){
+	if(curSession.belongsTo("Admin")){
 		return this.all();
 	}
-	else if(utils.isCustomer()){
+	else{
 		return this.query('ID == :1', sessionStorage.ID);
 	}
 
 	return this.createEntityCollection();
-}*/
+}
 
 /************************************************************************************
  |                                                                                  |
