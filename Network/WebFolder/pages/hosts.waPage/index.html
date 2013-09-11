@@ -1,1 +1,27 @@
-﻿<!DOCTYPE html><html>    <head>        <title>index</title>        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        <meta name="generator" content="Wakanda GUIDesigner" />        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />        <meta name="WAF.catalog" content="" />    </head>    <body>    </body></html>
+<!DOCTYPE html><html>
+    <head>
+        <title>index</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Wakanda GUIDesigner"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta name="WAF.catalog" content="Host,Network"/>
+    	<meta name="wakanda-version" content="5 build 5.138247"/>
+		<meta name="wakanda-build" content="5.138247"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Network" data-lib="WAF" data-id="network" data-dataType="string" data-autoLoad="true" content="network"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Host" data-lib="WAF" data-id="host" data-dataType="string" data-autoLoad="true" content="host"/></head>
+    <body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-platform="desktop" data-lib="WAF" data-group="[['fileUpload3','button10']]" data-entire-model="false" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
+    		<div id="dataGrid2" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="Hosts" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-left="true" data-column="[{'sourceAttID':'name','colID':'name','width':'150','title':'Name'},{'sourceAttID':'type','colID':'type','width':'150','title':'Type'},{'sourceAttID':'hostname','colID':'hostname','width':'150','title':'Hostname'},{'sourceAttID':'description','colID':'description','width':'150','title':'Description'},{'sourceAttID':'ip','colID':'ip','width':'150','title':'IP'},{'sourceAttID':'port','colID':'port','width':'90','title':'Port'}]" data-binding="host" class="waf-widget waf-dataGrid "></div>
+	<div id="image1" data-type="image" data-target="_blank" data-lib="WAF" data-label-position="left" data-label="" data-fit="0" data-constraint-top="true" data-constraint-left="true" data-binding="host.image" class="waf-widget waf-image "></div>
+			<div id="fileUpload3" data-userAction="Ask the user" data-type="fileUpload" data-role="smUploader" data-notification="true" data-maxfilesize-unity="KB" data-maxfilesize="-1" data-maxfiles="-1" data-listStyle="menu" data-linked-tag="button10" data-lib="WAF" data-label-position="left" data-label="" data-folder="tmp" data-constraint-top="true" data-constraint-left="true" data-binding="host.image" data-autoUpload="true" data-action="true" class="waf-widget waf-fileUpload waf-role-smUploader">
+	 		<button id="button10" data-type="button" data-text=" " data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button waf-fileUpload-btnUpload"></button>
+ 				</div>
+		
+		<div id="dataGrid3" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="Networks" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-left="true" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'}]" data-binding="network" class="waf-widget waf-dataGrid "></div>
+		<label id="label4" for="dataGrid2" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label waf-label-dataGrid">Hosts</label>
+		<label id="label5" for="dataGrid3" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label waf-label-dataGrid">Networks</label>
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
+	</body>
+</html>
